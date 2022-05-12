@@ -179,7 +179,7 @@ ul {
 .hero {
   background-color: var(--footer-bg-color);
   padding: 200px 0;
-  background-image:url(../images/hero-img/hero-img.jpeg);
+  background-image: url(../images/hero-img/hero-img.jpeg);
 }
 
 .hero-title {
@@ -235,14 +235,6 @@ ul {
   padding-top: 0;
 }
 
-.Advantages {
-  display: inline-block;
-  display: flex;
-  margin-top: 95px;
-  margin-bottom: 95px;
-  padding-inline-start: 0;
-}
-
 .Advantages-title {
   font-weight: 700;
   font-size: 14px;
@@ -272,8 +264,12 @@ ul {
 }
 
 .advantages {
+  display: inline-block;
   display: flex;
+  margin-top: 95px;
+  margin-bottom: 95px;
   margin: 0;
+  padding-inline-start: 0;
 }
 
 .advantages-title {
@@ -288,6 +284,20 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   color: #757575;
+}
+
+.icon-benefits {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F5F4FA;
+  margin-bottom: 30px;
+  height: 120px;
+  width: 260px;
+}
+
+.thumb {
+  display: flex;
 }
 
 /* Чем мы занимаемся */
