@@ -288,16 +288,16 @@ ul {
 
 .icon-benefits {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #F5F4FA;
-  margin-bottom: 30px;
-  height: 120px;
+  background-color: #f5f4fa;
   width: 260px;
+  height: 120px;
+  margin-bottom: 30px;
 }
 
 .thumb {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Чем мы занимаемся */
@@ -353,6 +353,41 @@ ul {
 
 .our-team-section {
   background-color: var(--section-our-team-bc);
+}
+
+/* Постоянные клиенты */
+
+.our-clients {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #212121;
+}
+
+.clients {
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  justify-content: center;
+  padding-inline-start: 0;
+}
+
+.clients-item {
+  width: 170px;
+  height: 92px;
+  padding-top: 16px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.clients-icon {
+  width: 106px;
+  height: 60px;
 }
 
 /* Footer */
