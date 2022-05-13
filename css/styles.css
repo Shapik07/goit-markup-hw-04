@@ -232,10 +232,12 @@ ul {
 
 .hero-btn:focus {
   background-color: var(--accent-hero-button);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .hero-btn:hover {
   background-color: var(--accent-hero-button);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 /* Секция преимуществ */
@@ -625,11 +627,15 @@ footer {
 .list-button:hover {
   color: var(--white-color-text);
   background-color: var(--focus-color-text);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .list-button:focus {
   color: var(--white-color-text);
   background-color: var(--focus-color-text);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* категории */
