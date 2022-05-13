@@ -380,17 +380,17 @@ ul {
 }
 
 .icon-network {
-  fill: #AFB1B8;
+  fill: #afb1b8;
 }
 
 .network-link:hover .icon-network,
 .network-link:focus .icon-network {
-   fill: #FFFFFF;
+  fill: #ffffff;
 }
 
 .network-link:hover,
 .network-link:focus {
-  background-color: #2196F3;
+  background-color: #2196f3;
 }
 
 /* Постоянные клиенты */
@@ -402,6 +402,25 @@ ul {
   line-height: 42px;
   text-align: center;
   color: #212121;
+}
+
+.clients {
+  margin: 0;
+  padding-inline-start: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.clients-item {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 
 /* Footer */
