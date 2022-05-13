@@ -366,29 +366,6 @@ ul {
   color: #212121;
 }
 
-.clients {
-  display: flex;
-  gap: 30px;
-  margin: 0;
-  justify-content: center;
-  padding-inline-start: 0;
-}
-
-.clients-item {
-  width: 170px;
-  height: 92px;
-  padding-top: 16px;
-  padding-right: 32px;
-  padding-bottom: 16px;
-  padding-left: 32px;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-}
-
-.clients-icon {
-  width: 106px;
-  height: 60px;
-}
 
 /* Footer */
 
