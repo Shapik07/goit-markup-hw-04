@@ -561,6 +561,15 @@ align-items: center;
   background-color: #2196F3;
 }
 
+.footer-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer-contacts {
+  margin-right: 70px;
+}
+
 /* Портфолио */
 
 .Categories {
