@@ -290,11 +290,11 @@ ul {
 
 .advantages-icon {
   display: flex;
-width: 270px;
-height: 120px;
-background-color: #F5F4FA;
-justify-content: center;
-margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  justify-content: center;
+  margin-bottom: 30px;
 }
 
 /* Чем мы занимаемся */
@@ -352,6 +352,47 @@ margin-bottom: 30px;
   background-color: var(--section-our-team-bc);
 }
 
+/* Social icons */
+
+.icon-network {
+  width: 20px;
+  height: 20px;
+}
+
+.socials {
+  display: flex;
+  padding-inline-start: 0;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.network-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  gap: 10px;
+}
+
+.icon-network {
+  fill: #AFB1B8;
+}
+
+.network-link:hover .icon-network,
+.network-link:focus .icon-network {
+   fill: #FFFFFF;
+}
+
+.network-link:hover,
+.network-link:focus {
+  background-color: #2196F3;
+}
+
 /* Постоянные клиенты */
 
 .our-clients {
@@ -362,7 +403,6 @@ margin-bottom: 30px;
   text-align: center;
   color: #212121;
 }
-
 
 /* Footer */
 
@@ -433,7 +473,7 @@ footer {
   width: 16px;
   height: 16px;
   margin-right: 10px;
- fill: currentColor;
+  fill: currentColor;
 }
 
 .icon-contacts:hover {
