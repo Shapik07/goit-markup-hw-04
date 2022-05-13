@@ -137,6 +137,8 @@ ul {
   font-weight: 500;
   color: var(--contacts-text-color);
   text-decoration: none;
+  display: flex;
+  margin-right: 10px;
 }
 
 /* Main */
@@ -376,6 +378,7 @@ ul {
 .contacts-nav-header {
   display: flex;
   margin: 0;
+  align-items: center;
 }
 
 .item > a {
@@ -386,6 +389,7 @@ ul {
 .contacts-nav-header {
   padding-left: 0px;
   margin-left: auto;
+  align-items: center;
 }
 
 .site-nav .item {
@@ -413,6 +417,17 @@ footer {
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.icon-contacts {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+ fill: currentColor;
+}
+
+.icon-contacts:hover {
+  color: var(--focus-color-text);
 }
 
 /* Портфолио */
