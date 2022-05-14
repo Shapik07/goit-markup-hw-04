@@ -144,6 +144,8 @@ ul {
   text-decoration: none;
   display: flex;
   margin-right: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Main */
@@ -534,7 +536,7 @@ footer {
   padding-bottom: 60px;
 }
 
-.icon-contacts {
+.icon-contacts-phone {
   width: 16px;
   height: 16px;
   margin-right: 10px;
@@ -542,7 +544,16 @@ footer {
   align-items: center;
 }
 
-.icon-contacts:hover {
+.icon-contacts-mail {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: currentColor;
+  align-items: center;
+}
+
+.icon-contacts-mail:hover,
+.icon-contacts-phone:hover {
   color: var(--focus-color-text);
 }
 
