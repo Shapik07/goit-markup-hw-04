@@ -670,6 +670,11 @@ footer {
   color: var(--white-color-text);
 }
 
+.active {
+  background-color: #2196F3;
+  color: #FFFFFF;
+}
+
 .categories-footer {
   padding-top: 20px;
   padding-right: 24px;
