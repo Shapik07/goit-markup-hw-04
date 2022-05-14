@@ -313,7 +313,13 @@ ul {
   height: 120px;
   background-color: #f5f4fa;
   justify-content: center;
+  align-items: center;
   margin-bottom: 30px;
+}
+
+.advantages-icon-file {
+  width: 70px;
+  height: 70px;
 }
 
 /* Чем мы занимаемся */
