@@ -109,6 +109,24 @@ ul {
   align-items: center;
 }
 
+.studio-btn,
+.portfolio-btn {
+  position: relative;
+}
+
+.studio-btn.current::after,
+.portfolio-btn.current::after {
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  width: 100%;
+  background: #2196f3;
+  border-radius: 2px;
+}
+
 .studio-btn:hover,
 .portfolio-btn:hover,
 .contacts-btn:hover,
