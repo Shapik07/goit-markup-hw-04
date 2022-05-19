@@ -473,6 +473,7 @@ ul {
   justify-content: center;
   align-items: center;
   gap: 30px;
+  cursor: pointer;
 }
 
 .clients-logo {
