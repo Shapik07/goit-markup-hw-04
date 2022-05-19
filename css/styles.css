@@ -769,6 +769,7 @@ footer {
   transition: transform 250ms;
 }
 
-.list-photo-link:hover .text-overlay-portfolio {
+.list-photo-link:hover .text-overlay-portfolio,
+.list-photo-link:focus .text-overlay-portfolio {
   transform: translateY(0);
 }
